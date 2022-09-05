@@ -51,4 +51,5 @@
   - Learner (esp Learner.fit)
 - Adding non linearity (nn.Relu)
 - Combining Layers (nn.Sequential)
-- Plotting loss
+- Plotting accuracy
+- Why more than one non linearity (deep models, better perf/total size)
