@@ -27,3 +27,28 @@
 - How to gradually replace a process with the model
 - What to monitor when using a model in production
 - Danger of feedback loops
+
+# 04 MNIST Basics
+
+- Basic operation on tensors
+- Baseline MNIST model: distance (mean(abs(a-b))) to average of training sets
+- NumPy arrays vs PyTorch tensors
+- Broadcasting
+- Stochastic gradient descent (SGD)
+- Computing gradients with PyTorch
+- Learning rate
+- SDG end-to-end example with 3 parameters model (quad)
+- Flatten 2D images to vectors (tensor.view())
+- Matrix multiplication to make predictions
+- Compute accuracy
+- Accuracy is not a good loss function because it's derivative is always 0 (step function)
+- Distance between predictions and targets as loss function
+- Sigmoid (R -> [0,1])
+- Mini batches, batch size (DataLoader)
+- Whole SGD process by hand, then replace elements with fastai/PyTorch provided utilities
+  - nn.Linear
+  - DataLoaders
+  - Learner (esp Learner.fit)
+- Adding non linearity (nn.Relu)
+- Combining Layers (nn.Sequential)
+- Plotting loss
