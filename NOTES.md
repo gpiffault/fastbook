@@ -53,3 +53,27 @@
 - Combining Layers (nn.Sequential)
 - Plotting accuracy
 - Why more than one non linearity (deep models, better perf/total size)
+
+# 09 Tabular
+
+- Categorical embeddings strengths
+- Pro and cons of deep learning vs random forest
+- How to peek at tabular data
+- Decision trees
+- Tabular data preprocessing (categories order, dates, common transforms)
+- Crafting a validation set (esp wrt test set)
+- How to build a decision tree to explore the data
+- Decision tree overfitting (big tree)
+- How to deal with categories (do nothing, it works)
+- Random forests
+- How to spot overfitting (out of bag error)
+- How to asses confidence of predictions (tree variance of preds)
+- Feature importance
+- Removing columns (low importance, redundancy)
+- How a column impact prediction
+- Data leakage (be mindful of data collection process)
+- How to analyze/explain a single prediction
+- Extrapolation problem with random forests
+- Finding potential issues with validation/test set (try predicting the set of a row)
+- Use a NN
+- Boosting
