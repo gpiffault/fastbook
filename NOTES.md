@@ -54,6 +54,25 @@
 - Plotting accuracy
 - Why more than one non linearity (deep models, better perf/total size)
 
+# 08 Collaborative filtering
+
+- Collaborative filtering (recommender system, latent factors)
+- Cross table for representation
+- Build a model architecture and use SGD to learn latent factors
+- Data preprocessing, latent factors representation
+- Embedding layer (array lookup compatible with gradient computation)
+- Pytorch module to define and train a model
+- Add sigmoid and bias
+- Weight decay (L2 regularization) to fight overfitting
+- More detailed Pytorch module definition (nn.Parameter)
+- Interpretation of embedding and biases
+- PCA for embeddings analysis
+- fast.ai collab_learner
+- Embedding distance
+- Bootstrapping recomender systems
+- Beware of representation bias and feedback loops
+- Using embeddings in a neural net
+
 # 09 Tabular
 
 - Categorical embeddings strengths
